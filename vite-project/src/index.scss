@@ -1,0 +1,56 @@
+.headerDiv{
+    border: 1px solid white;
+    width: 80%;
+    color: white;
+    margin-bottom: 20px;
+}
+.bbutton{
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 20px solid white;
+    margin-left: 20px;
+}
+.input-header{
+    border: 1px solid white;
+    color: white;
+    
+}
+.app-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;           /* Full viewport height */
+    text-align: center;
+}
+.compartments{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid white;
+}
+// .compartment-content-heading{
+//     border: 1px solid white;
+// }
+// .compartment-paras{
+//     border: 1px solid white;
+// }
+.mainBodyDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; // Distributes equal space between items
+    border: 1px solid white;
+    width: 80%;
+    color: white;
+    margin-top: 20px;
+  
+    .MainBodyContentDiv1, 
+    .MainBodyContentDiv2, 
+    .MainBodyContentDiv3 {
+      flex: 1; // Makes each div take equal width
+      margin: 0 10px; // Optional: Adds some space between the divs
+    }
+  }
+  
